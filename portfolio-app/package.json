@@ -1,0 +1,16 @@
+{
+  "name": "lika-ninidze-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio site with an Express backend and an admin panel for editing content.",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0"
+  }
+}

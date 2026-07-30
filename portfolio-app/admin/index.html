@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin — Lika Ninidze Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/admin/css/admin.css">
+</head>
+<body>
+
+<!-- Login -->
+<div class="login-screen" id="login-screen">
+  <div class="login-card">
+    <h1>Admin Sign-in</h1>
+    <p>Enter the admin password to edit the portfolio.</p>
+    <div class="login-error" id="login-error"></div>
+    <input type="text" id="login-password" placeholder="Password" autocomplete="current-password">
+    <button class="btn-brass" id="login-btn" style="width:100%;">Sign In</button>
+  </div>
+</div>
+
+<!-- Dashboard -->
+<div class="admin-shell" id="admin-shell">
+  <div class="admin-header">
+    <h1>Portfolio Admin</h1>
+    <div class="actions">
+      <span class="save-status" id="save-status"></span>
+      <button class="btn-brass" id="save-btn">Save Changes</button>
+      <button class="btn-ghost-white" id="logout-btn">Log Out</button>
+    </div>
+  </div>
+
+  <div class="admin-body">
+
+    <div class="panel">
+      <h2>Hero</h2>
+      <label>Full name</label><input type="text" id="h-name">
+      <div class="row2">
+        <div><label>Location eyebrow</label><input type="text" id="h-eyebrow"></div>
+        <div><label>Role line</label><input type="text" id="h-role"></div>
+      </div>
+      <label>Tagline</label><textarea id="h-tagline"></textarea>
+      <div class="row2">
+        <div><label>Email</label><input type="email" id="h-email"></div>
+        <div><label>Phone</label><input type="tel" id="h-phone"></div>
+      </div>
+      <h2 style="margin-top:22px; font-size:16px;">Reservation card</h2>
+      <div class="row2">
+        <div><label>Guest label</label><input type="text" id="c-guest"></div>
+        <div><label>Status</label><input type="text" id="c-status"></div>
+      </div>
+      <div class="row2">
+        <div><label>Role shown</label><input type="text" id="c-role"></div>
+        <div><label>Property</label><input type="text" id="c-property"></div>
+      </div>
+      <div class="row2">
+        <div><label>Check-in</label><input type="text" id="c-checkin"></div>
+        <div><label>Confirmation No.</label><input type="text" id="c-confno"></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>About</h2>
+      <label>Paragraphs</label>
+      <div id="about-paragraphs"></div>
+      <button class="btn-outline" id="add-paragraph">+ Add paragraph</button>
+
+      <label style="margin-top:22px;">Stats</label>
+      <div id="about-stats"></div>
+      <button class="btn-outline" id="add-stat">+ Add stat</button>
+    </div>
+
+    <div class="panel">
+      <h2>Work Experience</h2>
+      <div id="experience-list"></div>
+      <button class="btn-outline" id="add-experience">+ Add position</button>
+    </div>
+
+    <div class="panel">
+      <h2>Skills</h2>
+      <div class="tag-input-row" id="skills-tags"></div>
+      <div class="add-tag-form">
+        <input type="text" id="new-skill" placeholder="Add a skill and press Enter">
+        <button class="btn-outline" id="add-skill-btn">Add</button>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>Languages</h2>
+      <div id="languages-list"></div>
+      <button class="btn-outline" id="add-language">+ Add language</button>
+    </div>
+
+    <div class="panel">
+      <h2>Education</h2>
+      <label>Degree</label><input type="text" id="edu-degree">
+      <div class="row2">
+        <div><label>School</label><input type="text" id="edu-school"></div>
+        <div><label>Dates</label><input type="text" id="edu-dates"></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>Courses</h2>
+      <div id="courses-list"></div>
+      <button class="btn-outline" id="add-course">+ Add course</button>
+    </div>
+
+    <div class="panel">
+      <h2>Contact Section</h2>
+      <label>Heading</label><input type="text" id="ct-heading">
+      <label>Blurb</label><textarea id="ct-blurb"></textarea>
+      <div class="row2">
+        <div><label>Email</label><input type="email" id="ct-email"></div>
+        <div><label>Phone</label><input type="tel" id="ct-phone"></div>
+      </div>
+    </div>
+
+    <button class="btn-brass" id="save-btn-bottom" style="padding:14px 28px; font-size:15px;">Save All Changes</button>
+  </div>
+</div>
+
+<script src="/admin/js/admin.js"></script>
+</body>
+</html>

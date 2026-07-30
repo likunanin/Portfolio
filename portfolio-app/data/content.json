@@ -1,0 +1,88 @@
+{
+  "hero": {
+    "name": "Lika Ninidze",
+    "eyebrow": "Tbilisi & Batumi, Georgia",
+    "roleLine": "Reservation Manager & Hospitality Specialist",
+    "tagline": "Five years of turning guest requests into seamless stays — front desks, tour groups, and booking systems all pass through my hands calmly. I've just completed a full web development track alongside that experience, and I'm now looking for my next role.",
+    "email": "likaninidze2002@hotmail.com",
+    "phone": "+995 557721007",
+    "card": {
+      "guest": "L. Ninidze",
+      "status": "Open to Opportunities",
+      "role": "Reservation Manager (2024–2026)",
+      "property": "Rustar International, Tbilisi",
+      "checkIn": "Nov 2021",
+      "confNo": "RES-0447"
+    }
+  },
+  "about": {
+    "paragraphs": [
+      "I studied Archaeology at Georgian Technical University, which turned out to be excellent training for hospitality: both reward patience, careful documentation, and the ability to reconstruct a whole story from a few details.",
+      "Since 2021 I've worked across operations, tourism, reservations, and front desk roles in Batumi and Tbilisi — coordinating bookings, guiding groups, and making sure guests feel looked after from the first email to the final checkout.",
+      "Alongside that, I'm building web development skills — HTML/CSS, JavaScript, and now React — with the same attention to detail I bring to a guest's reservation."
+    ],
+    "stats": [
+      { "num": "5+", "label": "Years in hospitality & ops" },
+      { "num": "4", "label": "Roles across two cities" },
+      { "num": "2", "label": "Languages at C1" },
+      { "num": "5", "label": "Courses in web & design" }
+    ]
+  },
+  "experience": [
+    {
+      "dates": "NOV 2024 — JUN 2026",
+      "gate": "GATE · TBILISI",
+      "role": "Reservation Manager",
+      "org": "Rustar International, Tbilisi",
+      "bullets": ["Reservation management", "Booking coordination", "Customer service", "Email & phone communication"]
+    },
+    {
+      "dates": "JUN 2025 — AUG 2025",
+      "gate": "GATE · BATUMI",
+      "role": "Receptionist",
+      "org": "Golden Palace, Batumi",
+      "bullets": ["Front desk management", "Guest assistance", "Appointment scheduling", "Customer service"]
+    },
+    {
+      "dates": "MAY 2024 — AUG 2024",
+      "gate": "GATE · BATUMI",
+      "role": "Meeter Guide",
+      "org": "Rustar Tourism, Batumi",
+      "bullets": ["Guided tourists", "Organized meetings", "Customer communication", "Team coordination"]
+    },
+    {
+      "dates": "NOV 2021 — NOV 2023",
+      "gate": "GATE · ONLINE",
+      "role": "Operation Assistant",
+      "org": "Canada Express, Online",
+      "bullets": ["Operations coordination", "Team support", "Organization", "Problem-solving"]
+    }
+  ],
+  "skills": [
+    "Teamwork", "Communication", "Customer Service", "Problem Solving",
+    "Researching", "Microsoft Word", "Microsoft Excel", "Adobe Photoshop", "Adobe Illustrator"
+  ],
+  "languages": [
+    { "name": "Georgian", "level": "Native", "percent": 100 },
+    { "name": "English", "level": "C1 · Advanced", "percent": 88 },
+    { "name": "Russian", "level": "C1 · Advanced", "percent": 88 }
+  ],
+  "education": {
+    "degree": "Bachelor's in Archeology",
+    "school": "Georgian Technical University, Tbilisi",
+    "dates": "SEP 2020 — JUN 2025"
+  },
+  "courses": [
+    { "course": "Graphic Design", "meta": "Academy of Digital Industries · Oct 2024 – Jan 2025", "status": "Completed", "active": false },
+    { "course": "HTML / CSS", "meta": "Academy of Digital Industries · Jan 2026 – Mar 2026", "status": "Completed", "active": false },
+    { "course": "JavaScript", "meta": "Academy of Digital Industries · Mar 2026 – May 2026", "status": "Completed", "active": false },
+    { "course": "React", "meta": "Academy of Digital Industries · May 2026 – Jun 2026", "status": "Completed", "active": false },
+    { "course": "Python", "meta": "Self-taught · Jun 2026 – Present", "status": "In progress", "active": true }
+  ],
+  "contact": {
+    "heading": "Let's work together",
+    "blurb": "Whether it's a front desk, a booking system, or a project that needs someone organized and calm under pressure — I'd love to hear from you.",
+    "email": "likaninidze2002@hotmail.com",
+    "phone": "+995 557721007"
+  }
+}
